@@ -1,0 +1,317 @@
+.App {
+  text-align: center;
+}
+@font-face {
+  font-family: 'FreightBigPro';
+  src: local('FreightBigPro'), url(../src/fonts/FreightBigProMedium.otf) format('opentype');
+  /* other formats include: 'woff2', 'truetype, 'opentype',
+                            'embedded-opentype', and 'svg' */
+}
+@font-face {
+  font-family: 'FuturaStd';
+  src: local('FuturaStd'), url(../src/fonts/FuturaStdMedium.otf) format('opentype');
+  /* other formats include: 'woff2', 'truetype, 'opentype',
+                            'embedded-opentype', and 'svg' */
+}
+
+@font-face {
+  font-family: 'SFUI';
+  src: local('SFUI'), url(../src/fonts/SFUI.woff) format('woff');
+  /* other formats include: 'woff2', 'truetype, 'opentype',
+                            'embedded-opentype', and 'svg' */
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.sticky-navbar {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 100%;
+  /* box-shadow: 0 1px 2px 0 rgba(0,0,0,.05); */
+  border-top-width: 1px;
+  --border-opacity: 1;
+  /* border-color: #e2e8f0; */
+  /* border-color: rgba(226, 232, 240, var(--border-opacity)); */
+  -webkit-text-size-adjust: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+
+.navbar-wrapper {
+  position: relative;
+  max-width: 1400px;
+  width: 100%;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+.menu-wrapper {
+  flex-grow: 1;
+  display: flex;
+  box-sizing: border-box;
+  margin: 0;
+  justify-content: space-between;
+  padding-left: 13rem;
+  padding-right: 13rem;
+  font-family: "SF UI Display", BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif, SimSun;
+  font-size: 1.1rem;
+  word-spacing: 1px;
+
+}
+
+.logo-and-contact {
+  text-align: left;
+  margin-left: 10rem;
+}
+.logo-img {
+  max-width: 100%;
+  height: 6rem;
+}
+
+.top-bar {
+  height: 2rem;
+  background-color: #DBB866 !important;
+}
+.navbar-menu {
+  background-color: white !important;
+  border-top:solid 1px;
+
+  border-top-color: rgba(55, 63, 61, 0.082);
+
+  border-bottom: 0 solid white;
+  border-color: rgba(226, 232, 240, var(--border-opacity));
+}
+
+.home-logo {
+  vertical-align: middle;
+  color: #855C26;
+  pointer-events: none;
+}
+
+.logo-div {
+  vertical-align: middle;
+}
+.menu-item {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  --text-opacity: 5;
+  font-family: SFUI;
+  
+}
+/* .menu-item:hover{
+  color:#4C2613
+} */
+a{
+  text-decoration: none;
+  color:black
+}
+.about-section {
+  background-color: red;
+  height: 120vh;
+}
+.text-header {
+  transition-property: opacity, transform, -webkit-transform;
+  transition-timing-function: ease;
+  transition-duration: 0.4s;
+  pointer-events: auto;
+  font-family: FuturaStd;
+  font-weight: 500;
+  margin-bottom: 1rem !important;
+  font-size: 0.875rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+
+.text-title {
+  opacity: 1;
+  -webkit-transform: none;
+  transform: none;
+  transition-delay: 50ms;
+  transition-duration: .4s;
+  transition-timing-function: ease;
+  font-size: 4rem;
+  font-family: FreightBigPro !important;
+  pointer-events: auto;
+  margin-bottom: 3rem;
+  line-height: 1;
+  word-spacing: 1;
+  transition-property: opacity,transform,-webkit-transform;
+
+}
+.text-container-1{
+  text-align: center;
+  padding-bottom: 4.5rem;
+  padding-top: 3.25rem;
+  --bg-opacity: 1;
+  scroll-margin: 80px;
+
+}
+
+.text-container {
+  text-align: center;
+  padding-bottom: 4.5rem;
+  padding-top: 3.25rem;
+  --bg-opacity: 1;
+  background-color: #f1ede8;
+  background-color: rgba(241, 237, 232, var(--bg-opacity));
+  scroll-margin: 80px;
+}
+.text-content{
+  font-family: SFUI;
+  line-height: 1.75rem;
+  font-size: 16px
+}
+.phone-logo-container{
+margin-top: 1.2rem;
+
+
+}
+.phone-logo{
+  height:4rem;
+  margin-left: 60rem;
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  object-fit: cover;
+  max-width: 4.5rem;
+  filter: invert(13%) sepia(64%) saturate(820%) hue-rotate(340deg) brightness(97%) contrast(92%);
+  /* filter: invert(74%) sepia(13%) saturate(1336%) hue-rotate(4deg) brightness(99%) contrast(92%); */
+  padding-right: 0px;
+}
+.phone-number-container{
+  position: relative;
+  top: 70%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+
+ 
+}
+.phone-number{
+  text-decoration: none;
+  font-weight: 500;
+  color: black;
+  /* letter-spacing:1px; */
+  font-family: SFUI;
+}
+
+.phone-number:hover{
+  text-decoration: underline;
+  color:black
+}
+.bottom-bar{
+  background-color: #4C2613 !important;
+  justify-content: end !important;
+  padding-top: 0px;
+  height:4.5vw
+
+
+}
+.bottom-logo{
+  max-height: 4vw;
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(33deg) brightness(106%) contrast(102%);
+  
+}
+.bottom-bar-text{
+  color:white !important;
+  text-align: left;
+  font-size: 0.9rem;
+  /* position: relative;
+  top: 70%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%); */
+}
+
+.contact-header{
+  font-family: FreightBigPro;
+  font-weight: 100 !important;
+  /* text-align: left; */
+  font-size: 4rem;
+
+}
+
+
+
+.contact-sosmed{
+   margin: auto;
+  width: 50%;
+}
+.facebook{
+  margin-left: 0px;
+  margin-right: auto;
+}
+.instagram{
+  margin-left: auto;
+  margin-right: 0px
+}
+.contact-container{
+  font-family: SFUI;
+  line-height: 2;
+  margin-bottom: 4rem;
+}
+
+
+.submenu{
+  display:none;
+  padding-left: 30px;
+  background-color: #f1ede8;
+
+  width:70rem;
+  margin:auto
+}
+
+.menu-item.has-submenu:hover.submenu-inner {
+  background-color:red !important;
+  display: block !important
+}
+.x.y {
+  color:red;
+
+
+}
+.submenu-active{
+  display: block !important;
+  position: absolute;
+  margin-top:5.6rem;
+  left:0;
+  right:0;
+  margin-left: auto;
+  margin-right: auto; 
+  border-radius:0.5rem;
+
+
+
+  z-index: 1020;
+
+
+  background-color:red;
+  width:60vw;
+  text-align: center;
+}
