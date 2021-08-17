@@ -8,6 +8,18 @@
                             'embedded-opentype', and 'svg' */
 }
 @font-face {
+  font-family: 'FreightBigProLight';
+  src: local('FreightBigProLight'), url(../src/fonts/FreightBigProLight.otf) format('opentype');
+  /* other formats include: 'woff2', 'truetype, 'opentype',
+                            'embedded-opentype', and 'svg' */
+}
+@font-face {
+  font-family: 'SFUITHIN';
+  src: local('SFUITHIN'), url(../src/fonts/SFUITHIN.otf) format('opentype');
+  /* other formats include: 'woff2', 'truetype, 'opentype',
+                            'embedded-opentype', and 'svg' */
+}
+@font-face {
   font-family: 'FuturaStd';
   src: local('FuturaStd'), url(../src/fonts/FuturaStdMedium.otf) format('opentype');
   /* other formats include: 'woff2', 'truetype, 'opentype',
@@ -49,7 +61,7 @@
   justify-content: center;
   align-items: center;
   display: flex;
-  width: 100%;
+  
   /* box-shadow: 0 1px 2px 0 rgba(0,0,0,.05); */
   border-top-width: 1px;
   --border-opacity: 1;
@@ -62,20 +74,26 @@
 
 .navbar-wrapper {
   position: relative;
-  max-width: 1400px;
-  width: 100%;
-  padding-right: 30px;
-  padding-left: 30px;
-}
 
+
+
+  width:65rem
+}
+.App{
+  max-width: 100%;
+}
 .menu-wrapper {
-  flex-grow: 1;
+  flex-direction: row;
+  /* flex-grow: 1; */
+
   display: flex;
   box-sizing: border-box;
   margin: 0;
-  justify-content: space-between;
-  padding-left: 13rem;
-  padding-right: 13rem;
+  /* 
+    padding-left:auto;
+    padding-right: auto;
+    margin-left:10rem;
+    margin-right: 10rem; */
   font-family: "SF UI Display", BlinkMacSystemFont, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, sans-serif, SimSun;
   font-size: 1.1rem;
@@ -83,13 +101,20 @@
 
 }
 
+
 .logo-and-contact {
   text-align: left;
-  margin-left: 10rem;
+  display:flex;
+  width:100%;
+  flex:1;
+  flex-wrap: wrap;
+  justify-content:space-around
+
 }
 .logo-img {
   max-width: 100%;
   height: 6rem;
+  margin-left: 2.2rem;
 }
 
 .top-bar {
@@ -98,6 +123,7 @@
 }
 .navbar-menu {
   background-color: white !important;
+  
   border-top:solid 1px;
 
   border-top-color: rgba(55, 63, 61, 0.082);
@@ -108,7 +134,7 @@
 
 .home-logo {
   vertical-align: middle;
-  color: #855C26;
+  color: #DBB866;
   pointer-events: none;
 }
 
@@ -167,7 +193,7 @@ a{
   padding-bottom: 4.5rem;
   padding-top: 3.25rem;
   --bg-opacity: 1;
-  scroll-margin: 80px;
+
 
 }
 
@@ -178,12 +204,18 @@ a{
   --bg-opacity: 1;
   background-color: #f1ede8;
   background-color: rgba(241, 237, 232, var(--bg-opacity));
-  scroll-margin: 80px;
+
 }
 .text-content{
   font-family: SFUI;
   line-height: 1.75rem;
   font-size: 16px
+}
+.visi-misi{
+  font-family: SFUI;  
+  text-align: left;
+  font-size: 1.4rem;
+  color: #855C26
 }
 .phone-logo-container{
 margin-top: 1.2rem;
@@ -191,31 +223,43 @@ margin-top: 1.2rem;
 
 }
 .phone-logo{
-  height:4rem;
-  margin-left: 60rem;
+  height:2rem;
+
   position: relative;
-  top: 50%;
+  top: 47%;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
   object-fit: cover;
-  max-width: 4.5rem;
-  filter: invert(13%) sepia(64%) saturate(820%) hue-rotate(340deg) brightness(97%) contrast(92%);
+  max-width: 5rem;
+  /* filter: invert(13%) sepia(64%) saturate(820%) hue-rotate(340deg) brightness(97%) contrast(92%); */
   /* filter: invert(74%) sepia(13%) saturate(1336%) hue-rotate(4deg) brightness(99%) contrast(92%); */
   padding-right: 0px;
 }
 .phone-number-container{
-  position: relative;
-  top: 70%;
-  -webkit-transform: translateY(-50%);
+  /* position: relative; */
+margin-top: 1.2rem;
+  /* -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
+  transform: translateY(-50%); */
+  border-right: 1px solid;
+  --border-opacity: 1;
+  border-right-color: rgba(55, 63, 61, 0.082);
+
 
  
 }
 .phone-number{
   text-decoration: none;
-  font-weight: 500;
+  font-weight: 600;
+  color: #4C2613 ;
+  /* letter-spacing:1px; */
+  font-family: SFUI;
+
+}
+.phone-description{
+  text-decoration: none;
+  font-weight: 400;
   color: black;
   /* letter-spacing:1px; */
   font-family: SFUI;
@@ -260,24 +304,48 @@ margin-top: 1.2rem;
 
 
 .contact-sosmed{
+  display:flex;
+  flex:1;
+  flex-direction: row;
    margin: auto;
-  width: 50%;
+
 }
 .facebook{
   margin-left: 0px;
   margin-right: auto;
+
+  display: flex;
+  vertical-align: middle;
+  cursor:pointer;
+  
+
 }
 .instagram{
   margin-left: auto;
-  margin-right: 0px
+  margin-right: 0px;
+  display: flex;
+ cursor:pointer;
 }
+
 .contact-container{
   font-family: SFUI;
   line-height: 2;
-  margin-bottom: 4rem;
+
+  text-align: center;
+  background-color: #f1ede8;
+  margin-bottom:rem;
+  padding-bottom: 2rem;
 }
-
-
+.contact-detail{
+  font-family:SFUITHIN
+}
+.has-submenu{
+  margin:auto
+}
+.map{
+  height:30vw;  
+  width:30vw
+}
 .submenu{
   display:none;
   padding-left: 30px;
@@ -291,10 +359,51 @@ margin-top: 1.2rem;
   background-color:red !important;
   display: block !important
 }
-.x.y {
-  color:red;
 
+.left{
+  text-align:left
+}
 
+.detail{
+  font-family: SFUI;
+}
+.btn {
+  box-sizing: border-box;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background-color: transparent;
+  border: 2px solid #DBB866;
+  border-radius: 0.8em;
+  color: #DBB866;
+  cursor: pointer;
+  display: flex;
+  align-self: center;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1;
+  margin: auto;
+  padding: 1.2em 2.8em;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: SFUITHIN;
+  font-weight: 700;
+  margin-top:2em
+}
+.btn:hover, .btn:focus {
+  color: #fff;
+  outline: 0;
+}
+.first {
+  transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+}
+.first:hover {
+  box-shadow: 0 0 40px 40px #DBB866 inset;
+}
+.btn-outline-secondary{
+
+  font-family: SFUI;
 }
 .submenu-active{
   display: block !important;
@@ -304,14 +413,176 @@ margin-top: 1.2rem;
   right:0;
   margin-left: auto;
   margin-right: auto; 
-  border-radius:0.5rem;
+  border-radius:20px;
 
 
 
-  z-index: 1020;
 
 
-  background-color:red;
-  width:60vw;
+  padding: 10px;
+  padding-left: 1rem;
+  padding-top: 1rem;
+  background: #f1ede8;
+
+  border: 1px solid #eae8e5;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  width:40em;
   text-align: center;
+}
+
+
+.submenu-title{
+  font-family: FreightBigPro;
+  padding-left:5rem;
+  text-align: left;
+  font-size:3rem;
+
+  
+}
+.submenu-link{
+  border-bottom: 1px solid #d3d3d3;
+  padding-bottom:1rem
+}
+.accordion-header > .accordion-button{
+  background-color:#B49873 !important
+}
+.accordion-container{
+  width: 80%;
+  margin:auto;
+  margin-top:25px;
+  
+}
+.layanan-button{
+  border:none;
+  width: 100%;
+  margin:auto;
+  display:flex;
+  font-size: 15px;
+  background-color:transparent;
+  flex-grow: 1;
+  position: relative;
+  border-bottom: 1px solid black;
+
+}
+.accordionx{
+  text-align:center;
+  margin-bottom: 2rem;
+}
+.button-text{
+  font-size:2.5rem;
+
+}
+.number{
+  font-family: SFUITHIN;
+  font-weight: 100 !important;
+  border-right: 1px solid black;
+  
+  padding-right: 1rem;
+  width:4rem
+}
+.button-text.number{
+  color:#DBB866;
+}
+
+.name{
+  font-family:FreightBigProLight;
+  padding-left: 1rem;
+  font-weight: lighter
+ 
+}
+.arrow{
+  margin-left: auto;
+  height: 1.7rem;
+  filter: invert(70%) sepia(100%) saturate(227%) hue-rotate(357deg) brightness(91%) contrast(87%);
+
+
+}
+
+.content{
+  background-color: #f1ede8;
+  margin-top:1rem;
+  padding:2rem;
+  border-radius: 0.74rem;
+  font-family: SFUI;
+  line-height: 1.5rem;
+  font-size: 20px;
+  word-spacing: 1px;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  display:none;
+}
+.content-active{
+  background-color: #f1ede8;
+  margin-top:1rem;
+  padding:2rem;
+  border-radius: 0.74rem;
+  font-family: SFUI;
+  line-height: 1.5rem;
+  font-size: 20px;
+  word-spacing: 1px;
+  padding-left: 2%;
+  padding-right: 2%;
+  text-align: auto
+
+}
+
+.flexbox2{
+  display: flex;
+}
+.text-div{
+  width: 50%;
+  border-right:1px solid #d3d3d3;
+  /* border-right-color: rgba(55, 63, 61, 0.082); */
+  /* border-color: rgba(226, 232, 240, var(--border-opacity)); */
+}
+.img-container{
+  width: 50%;
+  flex:1;
+ 
+  justify-content:space-between;
+  flex-wrap:nowrap
+}
+.content-img{
+  width:70%;
+  border-radius:5px;
+  margin-bottom: 1rem;
+  margin-top:4rem
+}
+.spesialis-title{
+  font-family: FreightBigPro;
+  font-size: 2rem;
+  text-align: left;
+}
+.spesialis-nama{
+  font-family: SFUI;
+  font-size: 1.3rem;
+  text-align: left;
+  font-weight: 600;
+  margin-top:4%
+}
+
+.SFUILIGHT{
+  font-family: SFUITHIN;
+  text-align:left
+}
+
+.riwayat-pengalaman{
+  font-family:SFUITHIN;
+  text-align:left
+}
+.jadwal{
+  font-family: SFUI;
+  text-align:left
+}
+.spesialis-container{
+  margin-bottom: 3rem;
+  border-bottom: 1px solid #d3d3d3;
+  margin-right:0.7rem
+}
+
+.covid-submenu{
+  font-family: FreightBigPro;
+  font-size:2.2rem;
+  text-align: left;
+  margin-bottom: 2rem;
 }
