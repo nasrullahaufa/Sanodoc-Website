@@ -3,6 +3,7 @@ import facebook from "../img/facebook.png";
 import instagram from "../img/instagram.png";
 import { useHistory } from "react-router";
 import React, { useEffect, useRef, useState } from "react";
+import phone from "../img/phone.png";
 
 function Home() {
   const history = useHistory();
@@ -39,14 +40,14 @@ function Home() {
           <div class="leading-none mb-9 md:mb-12 welcome-title aos-init aos-animate text-title">
             <p>
               <span class="text-siteOrange">
-                <span style={{ color: "#855C26" }}>Sanodoc</span> Clinic
+                <span style={{ color: "#855C26" }}>SANODOC</span> Clinic
               </span>{" "}
             </p>
           </div>{" "}
           <div class="mb-8 leading-7 text-justify md:mb-11 md:text-center aos-init text-content">
-            Sanodoc Clinic adalah klinik kesehatan yang menyediakan berbagai
+            SANODOC Clinic adalah klinik kesehatan yang menyediakan berbagai
             pelayanan kesehatan seperti konsultasi dokter, pelayanan
-            laboratorium, fisioterapi, day care, dan home care. Sanodoc Clinic
+            laboratorium, fisioterapi, day care, dan home care. SANODOC Clinic
             bekerja sama dengan Laboratorium Biotest untuk menyediakan layanan
             yang terintegrasi bagi pasien.
           </div>{" "}
@@ -67,9 +68,9 @@ function Home() {
             </p>
           </div>{" "}
           <div class="mb-8 leading-7 text-justify md:mb-11 md:text-center aos-init text-content">
-            Sanodoc Clinic menyediakan berbagai layanan praktek dokter spesialis
+            SANODOC Clinic menyediakan berbagai layanan praktek dokter spesialis
             untuk memenuhi dan menangani kebutuhan pasien. Ketahui lebih lanjut
-            mengenai layanan praktek dokter di Sanodoc Clinic.
+            mengenai layanan praktek dokter di SANODOC Clinic.
             <div style={{ textAlign: "center" }}>
               <button
                 class="btn first"
@@ -114,7 +115,17 @@ function Home() {
         </div>
         <div className="contact-detail">Jl. Ciliwung 54, Surabaya</div>
         <div className="contact-detail">
-          (031) 9953 1000 &nbsp;| &nbsp;0813 3081 3300
+
+          <div style={{ display: "flex"}}>
+          <div style={{width: "50%",textAlign: "right"}}>
+          (031) 9953 1000 &nbsp;|
+          </div>
+          <div style={{ display: "flex"}}>
+            <div>&nbsp;&nbsp;<img src={phone} style={{ "max-height": "1rem" }}></img></div>
+            <div> &nbsp;0813 3081 3300</div>
+          </div>
+        
+          </div>
         </div>
         <div class="bsflex-row  contact-sosmed">
           <div
@@ -133,7 +144,7 @@ function Home() {
             <div class="">
               <img src={facebook} style={{ "max-height": "1rem" }}></img>
             </div>
-            <div> &nbsp;@sanodoclinic</div>
+            <div> &nbsp;@sanodoclinicsby</div>
           </div>
         </div>
       </div>
