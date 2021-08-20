@@ -578,10 +578,10 @@ function Layanan() {
             >
               
               <div style={{ width: "50%" }}>
-                <img src={Fisioterapi2} class="content-img"></img>
+                <img src={Fisioterapi2} class="content-img" style={{width:'75%'}}></img>
               </div>
               <div style={{ width: "50%" }}>
-                <img src={Fisioterapi3} class="content-img"></img>
+                <img src={Fisioterapi3} class="content-img" style={{width:'75%'}}></img>
               </div>
             </div>
           </div>
