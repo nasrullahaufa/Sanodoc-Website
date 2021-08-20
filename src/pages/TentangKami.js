@@ -55,29 +55,7 @@ function TentangKami() {
           <div></div>
         </div>
       </div>
-      {/* <div class="text-container" data-aos="fade-up" ref={isolasiMandiriRef}>
-      <div class="leading-none mb-9 md:mb-12 welcome-title aos-init aos-animate text-title">
-        <p>
-          <span class="text-siteOrange">
-            Perawatan <span style={{ color: "#855C26" }}>Isolasi</span>{" "}
-            Mandiri
-          </span>{" "}
-        </p>
-      </div>{" "}
-      <div class="bsflex-row">
-        <div data-aos="fade-right" style={{ width: "50%" }}>
-          <img src={isolasiMandiri1} style={{ "max-width": "45vw" }}></img>
-        </div>
-        <div>
-          <img
-            src={isolasiMandiri2}
-            data-aos="fade-left"
-            style={{ "max-width": "45vw" }}
-          ></img>
-        </div>
-      </div>
-    </div>
-     */}
+
       <div
         className="text-container"
         style={{ paddingTop: "1rem" }}
@@ -112,12 +90,12 @@ function TentangKami() {
         </p>
         <div style={{ textAlign: "left" }} class="  container">
           <p>
-          &#9656; Memberikan layanan dokter spesialis yang ahli di bidangnya
+          - Memberikan layanan dokter spesialis yang ahli di bidangnya
           </p>
           <p>
-          &#9656; Menyediakan obat yang dibutuhkan dari sumber yang terpercaya
+          - Menyediakan obat yang dibutuhkan dari sumber yang terpercaya
           </p>
-          <p>&#9656; Menyediakan tempat layanan bersih dan nyaman</p>
+          <p>- Menyediakan tempat layanan bersih dan nyaman</p>
         </div>
       </div>
     </div>

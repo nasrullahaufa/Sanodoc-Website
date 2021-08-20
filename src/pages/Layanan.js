@@ -252,7 +252,7 @@ function Layanan() {
                   <p>dr. Susan, Sp.A., M.Kes</p>
                 </div>
 
-                <div class="jadwal">
+                <div class="jadwal-bold">
                   <p>Senin - Jumat 19.00 - 21.00 (By appointment)</p>
                 </div>
                 <div class="SFUILIGHT">
@@ -260,11 +260,11 @@ function Layanan() {
                 </div>
                 <div class="riwayat-pengalaman">
                   <p>
-                    &#9656; 2006-2010 Dokter Spesialis Anak, Universitas
+                    - 2006-2010 Dokter Spesialis Anak, Universitas
                     Brawijaya, Malang
                   </p>
                   <p>
-                    &#9656; 1992-1998 Dokter Umum, Universitas Sebelas Maret,
+                    - 1992-1998 Dokter Umum, Universitas Sebelas Maret,
                     Surakarta
                   </p>
                 </div>
@@ -273,19 +273,19 @@ function Layanan() {
                 </div>
                 <div class="riwayat-pengalaman">
                   <p>
-                    &#9656; 2020-sekarang Dokter Spesialis Anak, SANODOC Clinic,
+                    - 2020-sekarang Dokter Spesialis Anak, SANODOC Clinic,
                     Surabaya
                   </p>
                   <p>
-                    &#9656; 2015-sekarang Ketua Komite Pencegahan dan
+                    - 2015-sekarang Ketua Komite Pencegahan dan
                     Pengendalian Infeksi, RS Gotong Royong, Surabaya
                   </p>
                   <p>
-                    &#9656; 2010-sekarang Dokter Spesialis Anak, Klinik Medika
+                    - 2010-sekarang Dokter Spesialis Anak, Klinik Medika
                     Utama Laguna, Surabaya
                   </p>
                   <p>
-                    &#9656; 2010-sekarang Dokter Spesialis Anak, RS Gotong
+                    - 2010-sekarang Dokter Spesialis Anak, RS Gotong
                     Royong, Surabaya
                   </p>
                 </div>
@@ -318,7 +318,7 @@ function Layanan() {
                   </p>
                 </div>
 
-                <div class="jadwal">
+                <div class="jadwal-bold">
                   <p>Senin-Jumat 18.00-20.00 (By appointment)</p>
                 </div>
                 <div class="SFUILIGHT">
@@ -326,41 +326,41 @@ function Layanan() {
                 </div>
                 <div class="riwayat-pengalaman">
                   <p>
-                    &#9656; 2019 Fellowship Cardiac Imaging, Cleveland Cinic,
+                    - 2019 Fellowship Cardiac Imaging, Cleveland Cinic,
                     Cleveland, Ohio, USA
                   </p>
                   <p>
-                    &#9656; 2018 Subspecialist Consultant Indonesia Collegium
+                    - 2018 Subspecialist Consultant Indonesia Collegium
                     Cardiovascular, Perhimpunan Dokter Spesialis Kardiovaskular
                     Indonesia
                   </p>
                   <p>
-                    &#9656; 2015 European Cardio Vascular Imaging (EACVI) –
+                    - 2015 European Cardio Vascular Imaging (EACVI) –
                     Trans Thoracic Echocardiography certification
                   </p>
                   <p>
-                    &#9656; 2013 Fellowship Trans Esophageal Echocardiography,
+                    - 2013 Fellowship Trans Esophageal Echocardiography,
                     St Vincent Hospital, Sydney, Australia
                   </p>
                   <p>
-                    &#9656; 2011 Fellowship Cardiac CT and Cardiac MRI,
+                    - 2011 Fellowship Cardiac CT and Cardiac MRI,
                     Kerckhoff Hospital, Bad Nauheim, Germany
                   </p>
                   <p>
-                    &#9656; 2011 Fellowship Cardiac CT, Cardiac Imaging and
+                    - 2011 Fellowship Cardiac CT, Cardiac Imaging and
                     Reasearch Departement Wellington Hospital, London, United
                     Kingdom (Certified, CCT Level 2)
                   </p>
                   <p>
-                    &#9656; 2009-2010 Fellowship Cardiac MRI, Flinders Hospital,
+                    - 2009-2010 Fellowship Cardiac MRI, Flinders Hospital,
                     Adelaide, Australia (Certified, CMR Level 2)
                   </p>
                   <p>
-                    &#9656; 2003-2009 Dokter Spesialis Jantung & Pembuluh Darah,
+                    - 2003-2009 Dokter Spesialis Jantung & Pembuluh Darah,
                     Universitas Airlangga, Surabaya
                   </p>
                   <p>
-                    &#9656; 1994-2000 Dokter Umum, Universitas Airlangga,
+                    - 1994-2000 Dokter Umum, Universitas Airlangga,
                     Surabaya
                   </p>
                 </div>
@@ -370,23 +370,23 @@ function Layanan() {
                 </div>
                 <div class="riwayat-pengalaman">
                   <p>
-                    &#9656; 2018-sekarang Dokter Spesialis Jantung & Pembuluh
+                    - 2018-sekarang Dokter Spesialis Jantung & Pembuluh
                     Darah, SANODOC Clinic, Surabaya
                   </p>
                   <p>
-                    &#9656; 2009-sekarang Dokter Spesialis Jantung & Pembuluh
+                    - 2009-sekarang Dokter Spesialis Jantung & Pembuluh
                     Darah, Siloam Hospitals, Surabaya
                   </p>
                   <p>
-                    &#9656; 2009-sekarang Dokter Spesialis Jantung & Pembuluh
+                    - 2009-sekarang Dokter Spesialis Jantung & Pembuluh
                     Darah RS Premier, Surabaya
                   </p>
                   <p>
-                    &#9656; 2003-2009 Residen Departemen Kardiologi dan
+                    - 2003-2009 Residen Departemen Kardiologi dan
                     Kedokteran Vaskular, RSUD Dr. Soetomo, Surabaya
                   </p>
                   <p>
-                    &#9656; 2001-2002 Dokter Umum, RSUD Dr. Mohamad Soewandhie,
+                    - 2001-2002 Dokter Umum, RSUD Dr. Mohamad Soewandhie,
                     Surabaya
                   </p>
                 </div>
@@ -409,7 +409,7 @@ function Layanan() {
                   <p>dr. Sonny Iwan Santoso, Sp.OG</p>
                 </div>
 
-                <div class="jadwal">
+                <div class="jadwal-bold">
                   <p>Senin-Jumat 18.30-21.00</p>
                 </div>
                 <div class="SFUILIGHT">
@@ -417,10 +417,10 @@ function Layanan() {
                 </div>
                 <div class="riwayat-pengalaman">
                   <p>
-                    &#9656; 2016 Fellowship Laparoskopi, Tu Du Hospital, Vietnam
+                    - 2016 Fellowship Laparoskopi, Tu Du Hospital, Vietnam
                   </p>
                   <p>
-                    &#9656; 2009-2012 Dokter Spesialis Kandungan & Kebidanan,
+                    - 2009-2012 Dokter Spesialis Kandungan & Kebidanan,
                     Universitas Sam Ratulangi, Manado
                   </p>
                 </div>
@@ -429,15 +429,15 @@ function Layanan() {
                 </div>
                 <div class="riwayat-pengalaman">
                   <p>
-                    &#9656; 2018-sekarang Dokter Spesialis Kandungan &
+                    - 2018-sekarang Dokter Spesialis Kandungan &
                     Kebidanan, SANODOC Clinic, Surabaya
                   </p>
                   <p>
-                    &#9656; 2016-sekarang Dokter Spesialis Kandungan &
+                    - 2016-sekarang Dokter Spesialis Kandungan &
                     Kebidanan, RSIA Ferina, Surabaya
                   </p>
                   <p>
-                    &#9656; 2012-sekarang Dokter Spesialis Kandungan &
+                    - 2012-sekarang Dokter Spesialis Kandungan &
                     Kebidanan, RS Adihusada Undaan, Surabaya
                   </p>
                 </div>
@@ -461,10 +461,10 @@ function Layanan() {
                   <p>dr. Dany Irawan, Sp.PD., FINASIM</p>
                 </div>
 
-                <div class="jadwal">
+                <div class="jadwal-bold">
                   <p>Senin-Jumat 09.00-12.00 & 17.00-21.00</p>
                 </div>
-                <div class="jadwal">
+                <div class="jadwal-bold">
                   <p>Sabtu 09.00-12.00 & 15.00-17.00</p>
                 </div>
                 <div class="SFUILIGHT">
@@ -472,11 +472,11 @@ function Layanan() {
                 </div>
                 <div class="riwayat-pengalaman">
                   <p>
-                    &#9656; 1989-1993 Dokter Spesialis Penyakit Dalam,
+                    - 1989-1993 Dokter Spesialis Penyakit Dalam,
                     Universitas Airlangga, Surabaya
                   </p>
                   <p>
-                    &#9656;1976-1983 Dokter Umum, Universitas Airlangga,
+                    -1976-1983 Dokter Umum, Universitas Airlangga,
                     Surabaya
                   </p>
                 </div>
@@ -485,36 +485,36 @@ function Layanan() {
                 </div>
                 <div class="riwayat-pengalaman">
                   <p>
-                    &#9656; 2017-sekarang Dokter Spesialis Penyakit Dalam,
+                    - 2018-sekarang Dokter Spesialis Penyakit Dalam,
                     SANODOC Clinic, Surabaya
                   </p>
                   <p>
-                    &#9656; 1999-sekarang Dokter Spesialis Penyakit Dalam, RS
+                    - 1999-sekarang Dokter Spesialis Penyakit Dalam, RS
                     Mitra Keluarga (Satelit), Surabaya
                   </p>
                   <p>
-                    &#9656; 1997-sekarang Dokter Spesialis Penyakit Dalam, RS
+                    - 1997-sekarang Dokter Spesialis Penyakit Dalam, RS
                     St. Vincentius A Paulo (RKZ), Surabaya
+                  </p>
+                  <p>
+                    - 2013-2018 Dokter Spesialis Penyakit Dalam, Klinik Medika Utama Ciliwung, Surabaya
                   </p>
 
                   <p>
-                    &#9656; 2002-2005 Ketua Team Peningkatan Mutu RS St.
+                    - 2002-2005 Ketua Team Peningkatan Mutu RS St.
                     Vincentius A Paulo (RKZ), Surabaya
                   </p>
                   <p>
-                    &#9656; 1999-2013 Pembina Paguyuban Diabetes RS St.
+                    - 1999-2013 Pembina Paguyuban Diabetes RS St.
                     Vincentius A Paulo (RKZ), Surabaya
                   </p>
+               
                   <p>
-                    &#9656; 1997-2013 Dokter Spesialis Penyakit Dalam, RS St.
-                    Vincentius A Paulo (RKZ), Surabaya
-                  </p>
-                  <p>
-                    &#9656; 1999-2013 Dokter Spesialis Penyakit Dalam, RS
+                    - 1999-2013 Dokter Spesialis Penyakit Dalam, RS
                     Premier Surabaya, Surabaya
                   </p>
                   <p>
-                    &#9656; 1993-1997 Dokter Spesialis Penyakit Dalam, RS TNI AU
+                    - 1993-1997 Dokter Spesialis Penyakit Dalam, RS TNI AU
                     Soemitro, Surabaya
                   </p>
                 </div>
@@ -576,13 +576,11 @@ function Layanan() {
             <div
               style={{ display: "flex", flexDirection: "row", width: "100%" }}
             >
-              <div style={{ width: "33%" }}>
-                <img src={Fisioterapi1} class="content-img"></img>
-              </div>
-              <div style={{ width: "33%" }}>
+              
+              <div style={{ width: "50%" }}>
                 <img src={Fisioterapi2} class="content-img"></img>
               </div>
-              <div style={{ width: "33%" }}>
+              <div style={{ width: "50%" }}>
                 <img src={Fisioterapi3} class="content-img"></img>
               </div>
             </div>
@@ -654,11 +652,9 @@ function Layanan() {
             <div
               style={{ display: "flex", flexDirection: "row", width: "100%" }}
             >
+      
               <div>
-                <img src={dayCare1} class="content-img"></img>
-              </div>
-              <div>
-                <img src={dayCare2} class="content-img"></img>
+                <img src={dayCare2} class="content-img" style={{width:"50%"}}></img>
               </div>
             </div>
           </div>

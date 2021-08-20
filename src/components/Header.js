@@ -197,7 +197,7 @@ export default function Header() {
           </a>
         </div>
         <div style={{ marginTop: "auto", fontSize: "2rem" }}>
-          &nbsp;&nbsp; Contact Us
+          &nbsp;&nbsp; Pendaftaran
         </div>
       </div>
       <div
