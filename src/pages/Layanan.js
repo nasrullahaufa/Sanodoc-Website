@@ -34,11 +34,12 @@ function Layanan() {
   let params = useParams();
   const history = useHistory();
   const praktekDokterRef = useRef(null);
+  //useeffect kalo pake params, sama aray dependensi buat refresh akordion
   useEffect(() => {
     switch (params.id) {
       case "praktekdokter":
         setPraktekDokter("content-active");
-
+        window.scrollTo(0, 0);
         params.id = "";
         break;
       case "1":
@@ -89,7 +90,7 @@ function Layanan() {
 
   const handleAccordion = (event, name) => {
     event.preventDefault();
-    console.log(name);
+
 
     switch (name) {
       case "LAB":
@@ -230,11 +231,7 @@ function Layanan() {
             <img src={arrow} class="arrow"></img>{" "}
           </div>
         </button>
-        <div
-          data-aos="fade-up"
-          // style={{ scrollMargin: "40px" }}
-          class={praktekDokter}
-        >
+        <div data-aos="fade-up" class={praktekDokter}>
           <div class="">
             <div class="spesialis-div">
               <div
@@ -260,8 +257,8 @@ function Layanan() {
                 </div>
                 <div class="riwayat-pengalaman">
                   <p>
-                    - 2006-2010 Dokter Spesialis Anak, Universitas
-                    Brawijaya, Malang
+                    - 2006-2010 Dokter Spesialis Anak, Universitas Brawijaya,
+                    Malang
                   </p>
                   <p>
                     - 1992-1998 Dokter Umum, Universitas Sebelas Maret,
@@ -277,16 +274,16 @@ function Layanan() {
                     Surabaya
                   </p>
                   <p>
-                    - 2015-sekarang Ketua Komite Pencegahan dan
-                    Pengendalian Infeksi, RS Gotong Royong, Surabaya
+                    - 2015-sekarang Ketua Komite Pencegahan dan Pengendalian
+                    Infeksi, RS Gotong Royong, Surabaya
                   </p>
                   <p>
-                    - 2010-sekarang Dokter Spesialis Anak, Klinik Medika
-                    Utama Laguna, Surabaya
+                    - 2010-sekarang Dokter Spesialis Anak, Klinik Medika Utama
+                    Laguna, Surabaya
                   </p>
                   <p>
-                    - 2010-sekarang Dokter Spesialis Anak, RS Gotong
-                    Royong, Surabaya
+                    - 2010-sekarang Dokter Spesialis Anak, RS Gotong Royong,
+                    Surabaya
                   </p>
                 </div>
               </div>
@@ -335,21 +332,21 @@ function Layanan() {
                     Indonesia
                   </p>
                   <p>
-                    - 2015 European Cardio Vascular Imaging (EACVI) –
-                    Trans Thoracic Echocardiography certification
+                    - 2015 European Cardio Vascular Imaging (EACVI) – Trans
+                    Thoracic Echocardiography certification
                   </p>
                   <p>
-                    - 2013 Fellowship Trans Esophageal Echocardiography,
-                    St Vincent Hospital, Sydney, Australia
+                    - 2013 Fellowship Trans Esophageal Echocardiography, St
+                    Vincent Hospital, Sydney, Australia
                   </p>
                   <p>
-                    - 2011 Fellowship Cardiac CT and Cardiac MRI,
-                    Kerckhoff Hospital, Bad Nauheim, Germany
+                    - 2011 Fellowship Cardiac CT and Cardiac MRI, Kerckhoff
+                    Hospital, Bad Nauheim, Germany
                   </p>
                   <p>
-                    - 2011 Fellowship Cardiac CT, Cardiac Imaging and
-                    Reasearch Departement Wellington Hospital, London, United
-                    Kingdom (Certified, CCT Level 2)
+                    - 2011 Fellowship Cardiac CT, Cardiac Imaging and Reasearch
+                    Departement Wellington Hospital, London, United Kingdom
+                    (Certified, CCT Level 2)
                   </p>
                   <p>
                     - 2009-2010 Fellowship Cardiac MRI, Flinders Hospital,
@@ -360,8 +357,7 @@ function Layanan() {
                     Universitas Airlangga, Surabaya
                   </p>
                   <p>
-                    - 1994-2000 Dokter Umum, Universitas Airlangga,
-                    Surabaya
+                    - 1994-2000 Dokter Umum, Universitas Airlangga, Surabaya
                   </p>
                 </div>
 
@@ -370,20 +366,20 @@ function Layanan() {
                 </div>
                 <div class="riwayat-pengalaman">
                   <p>
-                    - 2018-sekarang Dokter Spesialis Jantung & Pembuluh
-                    Darah, SANODOC Clinic, Surabaya
+                    - 2018-sekarang Dokter Spesialis Jantung & Pembuluh Darah,
+                    SANODOC Clinic, Surabaya
                   </p>
                   <p>
-                    - 2009-sekarang Dokter Spesialis Jantung & Pembuluh
-                    Darah, Siloam Hospitals, Surabaya
+                    - 2009-sekarang Dokter Spesialis Jantung & Pembuluh Darah,
+                    Siloam Hospitals, Surabaya
                   </p>
                   <p>
-                    - 2009-sekarang Dokter Spesialis Jantung & Pembuluh
-                    Darah RS Premier, Surabaya
+                    - 2009-sekarang Dokter Spesialis Jantung & Pembuluh Darah RS
+                    Premier, Surabaya
                   </p>
                   <p>
-                    - 2003-2009 Residen Departemen Kardiologi dan
-                    Kedokteran Vaskular, RSUD Dr. Soetomo, Surabaya
+                    - 2003-2009 Residen Departemen Kardiologi dan Kedokteran
+                    Vaskular, RSUD Dr. Soetomo, Surabaya
                   </p>
                   <p>
                     - 2001-2002 Dokter Umum, RSUD Dr. Mohamad Soewandhie,
@@ -416,9 +412,7 @@ function Layanan() {
                   <p>Riwayat Pendidikan</p>
                 </div>
                 <div class="riwayat-pengalaman">
-                  <p>
-                    - 2016 Fellowship Laparoskopi, Tu Du Hospital, Vietnam
-                  </p>
+                  <p>- 2016 Fellowship Laparoskopi, Tu Du Hospital, Vietnam</p>
                   <p>
                     - 2009-2012 Dokter Spesialis Kandungan & Kebidanan,
                     Universitas Sam Ratulangi, Manado
@@ -429,16 +423,16 @@ function Layanan() {
                 </div>
                 <div class="riwayat-pengalaman">
                   <p>
-                    - 2018-sekarang Dokter Spesialis Kandungan &
-                    Kebidanan, SANODOC Clinic, Surabaya
+                    - 2018-sekarang Dokter Spesialis Kandungan & Kebidanan,
+                    SANODOC Clinic, Surabaya
                   </p>
                   <p>
-                    - 2016-sekarang Dokter Spesialis Kandungan &
-                    Kebidanan, RSIA Ferina, Surabaya
+                    - 2016-sekarang Dokter Spesialis Kandungan & Kebidanan, RSIA
+                    Ferina, Surabaya
                   </p>
                   <p>
-                    - 2012-sekarang Dokter Spesialis Kandungan &
-                    Kebidanan, RS Adihusada Undaan, Surabaya
+                    - 2012-sekarang Dokter Spesialis Kandungan & Kebidanan, RS
+                    Adihusada Undaan, Surabaya
                   </p>
                 </div>
               </div>
@@ -472,46 +466,44 @@ function Layanan() {
                 </div>
                 <div class="riwayat-pengalaman">
                   <p>
-                    - 1989-1993 Dokter Spesialis Penyakit Dalam,
-                    Universitas Airlangga, Surabaya
+                    - 1989-1993 Dokter Spesialis Penyakit Dalam, Universitas
+                    Airlangga, Surabaya
                   </p>
-                  <p>
-                    -1976-1983 Dokter Umum, Universitas Airlangga,
-                    Surabaya
-                  </p>
+                  <p>-1976-1983 Dokter Umum, Universitas Airlangga, Surabaya</p>
                 </div>
                 <div class="SFUILIGHT">
                   <p>Pengalaman Kerja</p>
                 </div>
                 <div class="riwayat-pengalaman">
                   <p>
-                    - 2018-sekarang Dokter Spesialis Penyakit Dalam,
-                    SANODOC Clinic, Surabaya
+                    - 2018-sekarang Dokter Spesialis Penyakit Dalam, SANODOC
+                    Clinic, Surabaya
                   </p>
                   <p>
-                    - 1999-sekarang Dokter Spesialis Penyakit Dalam, RS
-                    Mitra Keluarga (Satelit), Surabaya
+                    - 1999-sekarang Dokter Spesialis Penyakit Dalam, RS Mitra
+                    Keluarga (Satelit), Surabaya
                   </p>
                   <p>
-                    - 1997-sekarang Dokter Spesialis Penyakit Dalam, RS
-                    St. Vincentius A Paulo (RKZ), Surabaya
+                    - 1997-sekarang Dokter Spesialis Penyakit Dalam, RS St.
+                    Vincentius A Paulo (RKZ), Surabaya
                   </p>
                   <p>
-                    - 2013-2018 Dokter Spesialis Penyakit Dalam, Klinik Medika Utama Ciliwung, Surabaya
+                    - 2013-2018 Dokter Spesialis Penyakit Dalam, Klinik Medika
+                    Utama Ciliwung, Surabaya
                   </p>
 
                   <p>
-                    - 2002-2005 Ketua Team Peningkatan Mutu RS St.
-                    Vincentius A Paulo (RKZ), Surabaya
+                    - 2002-2005 Ketua Team Peningkatan Mutu RS St. Vincentius A
+                    Paulo (RKZ), Surabaya
                   </p>
                   <p>
-                    - 1999-2013 Pembina Paguyuban Diabetes RS St.
-                    Vincentius A Paulo (RKZ), Surabaya
+                    - 1999-2013 Pembina Paguyuban Diabetes RS St. Vincentius A
+                    Paulo (RKZ), Surabaya
                   </p>
-               
+
                   <p>
-                    - 1999-2013 Dokter Spesialis Penyakit Dalam, RS
-                    Premier Surabaya, Surabaya
+                    - 1999-2013 Dokter Spesialis Penyakit Dalam, RS Premier
+                    Surabaya, Surabaya
                   </p>
                   <p>
                     - 1993-1997 Dokter Spesialis Penyakit Dalam, RS TNI AU
@@ -576,12 +568,19 @@ function Layanan() {
             <div
               style={{ display: "flex", flexDirection: "row", width: "100%" }}
             >
-              
               <div style={{ width: "50%" }}>
-                <img src={Fisioterapi2} class="content-img" style={{width:'75%'}}></img>
+                <img
+                  src={Fisioterapi2}
+                  class="content-img"
+                  style={{ width: "75%" }}
+                ></img>
               </div>
               <div style={{ width: "50%" }}>
-                <img src={Fisioterapi3} class="content-img" style={{width:'75%'}}></img>
+                <img
+                  src={Fisioterapi3}
+                  class="content-img"
+                  style={{ width: "75%" }}
+                ></img>
               </div>
             </div>
           </div>
@@ -652,9 +651,12 @@ function Layanan() {
             <div
               style={{ display: "flex", flexDirection: "row", width: "100%" }}
             >
-      
               <div>
-                <img src={dayCare2} class="content-img" style={{width:"50%"}}></img>
+                <img
+                  src={dayCare2}
+                  class="content-img"
+                  style={{ width: "50%" }}
+                ></img>
               </div>
             </div>
           </div>

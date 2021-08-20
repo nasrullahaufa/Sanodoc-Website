@@ -1,47 +1,58 @@
 .App {
   text-align: center;
 }
-.mobile{
- display:none ;
+.mobile {
+  display: none;
 }
-.navbar-mobile{
-  display:none !important
+.navbar-mobile {
+  display: none !important;
 }
 
-@media only screen and (max-width: 600px) {
-  .mobile{
-    display:flex;
-    
+@media only screen and (max-width: 799px) {
+  .mobile {
+    display: flex;
   }
-  .contact{
+  .contact {
     font-family: SFUITHIN;
-    margin-bottom:1rem
+    margin-bottom: 1rem;
   }
-  .phone-number-container{
-    border:none !important;
+  .phone-number-container {
+    border: none !important;
   }
-  .contact-group{
-    display:none !important;
+  .contact-group {
+    display: none !important;
   }
-  .navbar-pc{
-    display:none !important;
+  .navbar-pc {
+    display: none !important;
   }
-  .sticky-navbar{
-    
-    padding-top:1rem !important;
+  .sticky-navbar {
+    padding-top: 1rem !important;
     padding-bottom: 1rem;
   }
-  .button-text{
-    font-size:1.4rem !important
+  .button-text {
+    font-size: 1.4rem !important;
   }
-  .menu-mobile{
-justify-content: space-around !important;
-
-
+  .menu-mobile {
+    justify-content: space-around !important;
   }
-  .navbar-mobile{
+  .spesialis-div {
+    flex-direction: column;
+  }
+  .spesialis-container{
+    width:100% !important;  border-bottom: 1px solid #d3d3d3 !important;
+  }
+  .content-img{
+    width: 60% !important
+  }
+  .img-container{
+    width: 100% !important; 
+    padding-top: 0rem !important;
+    border:none !important;
+  }
+
+  .navbar-mobile {
     border-bottom: 1px solid #d3d3d3 !important;
-    display:flex !important;
+    display: flex !important;
   }
 }
 @font-face {
@@ -117,7 +128,7 @@ justify-content: space-around !important;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
 }
-.jadwal-bold{
+.jadwal-bold {
   font-family: SFUI;
   text-align: left;
 }
@@ -546,20 +557,20 @@ a {
   border-right: 1px solid #d3d3d3;
  
 } */
-.container-isolasi{
+.container-isolasi {
   border-bottom: 1px solid #d3d3d3;
 }
-.spesialis-div{
+.spesialis-div {
   display: flex;
 }
 .img-container {
   width: 46%;
   flex: 1;
-  display:flex;
+  display: flex;
   flex-direction: column;
-  border-left:1px solid #d3d3d3;
-  padding:auto;
- padding-top:3rem;
+  border-left: 1px solid #d3d3d3;
+  padding: auto;
+  padding-top: 3rem;
   flex-wrap: nowrap;
 }
 .content-img {
@@ -567,7 +578,7 @@ a {
   border-radius: 5px;
   margin-bottom: 2rem;
 
-  margin-left:5%;
+  margin-left: 5%;
 }
 .spesialis-title {
   font-family: FreightBigPro;
@@ -597,11 +608,11 @@ a {
   text-align: left;
 }
 .spesialis-container {
-  width:56%;
+  width: 56%;
   margin-bottom: 3rem;
   border-top: 1px solid #d3d3d3;
   margin-right: 0.7rem;
-  padding-top:2rem;
+  padding-top: 2rem;
   padding-left: 2rem;
 }
 
